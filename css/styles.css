@@ -1,12 +1,14 @@
 /*GLOBAL SELECTORS */
 
 *{
-
+box-sizing:border-box;
+font-family: 'Droid Sans', sans-serif;
 }
+
 
 body{
  color: black;
- background-image:linear-gradient(deepskyblue 5%, dodgerblue);
+ background-image:linear-gradient(to right,deepskyblue 5%, dodgerblue);
 
 }
 
@@ -14,32 +16,71 @@ body{
 
 #contact{
     float:right;
-    margin-right:10%;
+    margin-right:20%;
+    margin-bottom: 1%;
+    margin-top:-1.5%;
+    padding-right:10%;
+    padding-left:10%;
+    
+    
+    margin-left:5%;
+    margin-right:15%;
 }
 
 .box{
- background: rgba(255,255,255,.6);
+ background: grey;
  text-align: center;
+ font-size: 70px;
  max-width: 50%;
  margin-left: 30%;
  margin-right: 30%;
  margin-top:5%;
  margin-bottom:5%;
  padding-bottom: 30px;
-padding-top: 30px;
-
+ padding-top: 30px;
+ border-radius: 100%;
+ 
 
 }
 
-#bio
+#bio{
+
+}
+
+nav{
+margin-left:-2%;
+padding-left:4%;
+}
+
+#main{
+background-color:rgba(0,0,0,.1);
+padding-left:2%;
+padding-right:2%;
+
+margin-left:20%;
+margin-right:20%;
+
+}
+
 
 #col1{
+margin-left:10%;
+max-width:40%;
 float:left;
+background-color:rgba(0,0,0,.1);
+    border-radius:4%;
 }
 
 #col2{
+margin-right:10%;
+max-width:40%;
 float:right;
+    background-color:rgba(0,0,0,.1);
+    border-radius:3%;
+
 }
+
+
 .verticalLine {
     border-left: thick solid #ff0000;
 }
@@ -49,5 +90,23 @@ max-width:30px;
 max-height: 30px;
 min-width:30px;
 min-height: 30px;
+
+}
+
+.group:after{
+content: "";
+display:table;
+clear: both;
+}
+
+h1{   
+font-size: 70px;
+}
+h2{
+font-size: 40px;
+font-weight: bold;
+}
+h3{
+font-size: 20px;
 
 }
