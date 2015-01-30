@@ -46,7 +46,7 @@ body{
  border-radius: 100%;
  width:300px;
  height: 300px;
- 
+     box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, .2);
 
 }
 
@@ -67,7 +67,7 @@ padding-bottom:1%;
 padding-top:1%;
 margin-left:20%;
 margin-right:20%;
-
+ box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, .3);
 }
 
 
@@ -79,7 +79,7 @@ max-width:40%;
 margin-bottom: 100px;
 float:left;
 background-color:rgba(255,255,255,.35);
-
+ box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, .3);
 }
 
 #col2{
@@ -90,6 +90,7 @@ max-width:40%;
 float:right;
     background-color:rgba(255,255,255,.35);
 margin-bottom: 100px;
+     box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, .3);
 
 }
 
