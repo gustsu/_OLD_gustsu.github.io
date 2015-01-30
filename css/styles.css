@@ -6,11 +6,12 @@ font-family: 'Droid Sans', sans-serif;
 }
 
 p{font-family: 'Droid Sans', sans-serif;
+    color:black;
 }
 
 
 body{
- color: black;
+ 
  background-image:linear-gradient(to right,deepskyblue 5%, dodgerblue);
 
 }
@@ -19,7 +20,7 @@ body{
 
 #contact{
     float:right;
-    margin-right:20%;
+
     margin-bottom: 1%;
     margin-top:-1.5%;
     padding-right:10%;
@@ -31,11 +32,12 @@ body{
 }
 
 .box{
+    font-family: 'Raleway', sans-serif;
  background: yellow;
  text-align: center;
  font-size: 70px;
  max-width: 50%;
- margin-left: 44%;
+ margin-left: 41%;
  margin-right:30%;
  margin-top:5%;
  margin-bottom:5%;
@@ -70,6 +72,7 @@ margin-right:20%;
 
 
 #col1{
+min-width: 35%;
     margin-top: 5%;
 margin-left:5%;
 max-width:40%;
@@ -80,12 +83,13 @@ background-color:rgba(255,255,255,.35);
 }
 
 #col2{
+    min-width: 35%;
 margin-top: 5%;
 margin-right:5%;
 max-width:40%;
 float:right;
     background-color:rgba(255,255,255,.35);
-
+margin-bottom: 100px;
 
 }
 
@@ -115,14 +119,37 @@ clear: both;
 }
 
 h1{   
-font-size: 70px;
+
+font-family: 'Raleway', sans-serif;
+font-size: 30px;
+font-weight: bold;
 }
 h2{
-font-family: 'Droid Sans', sans-serif;
+margin:20px;
+font-family: 'Raleway', sans-serif;
 font-size: 30px;
 font-weight: bold;
 }
 h3{
 font-size: 20px;
 
+}
+
+h4{
+text-align: center;
+font-size: 16px;
+}
+
+h5{
+font-size:17px;
+font-weight: bold;
+}
+
+.icon{
+    
+width: 80px;
+height: 80px;
+padding-left: 10px;
+margin-left: 20px;
+margin-right: 20px;
 }
