@@ -115,8 +115,8 @@ min-height: 50px;
 }
 
 #me{
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
     border-radius: 100%;
 }
 
@@ -186,3 +186,8 @@ a:hover{
 a:active{
     color:red;
 }
+
+
+/*media querys*/
+
+@media (max-width:
