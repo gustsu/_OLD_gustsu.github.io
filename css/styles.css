@@ -2,7 +2,7 @@
 
 *{
 box-sizing:border-box;
-font-family: 'Droid Sans', sans-serif;
+
 }
 
 p{font-family: 'Droid Sans', sans-serif;
@@ -12,7 +12,7 @@ p{font-family: 'Droid Sans', sans-serif;
 
 body{
  
- background-image:linear-gradient(to right,deepskyblue 5%, dodgerblue);
+ background-image:linear-gradient(to right,yellow 5%, red);
 
 }
 
@@ -36,9 +36,10 @@ body{
 }
 .box{
 
+
  background: yellow;
  text-align: center;
- font-size: 70px;
+
  max-width: 50%;
  margin-left: 41%;
  margin-right:30%;
@@ -52,13 +53,13 @@ body{
      box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, .2);
 color:yellow;
     background: url(../img/100_5055.JPG);
-    background-size: contain;
-
+    background-size: cover;
+font-family: 'Raleway', sans-serif;
+font-size: 70px;
+font-weight: bold;
 }
 
-#bio{
 
-}
 
 nav{
 margin-left:-2%;
@@ -159,4 +160,29 @@ height: 80px;
 padding-left: 10px;
 margin-left: 20px;
 margin-right: 20px;
+}
+
+.selected{
+    background:black;
+}
+
+/*Pseudo Classes*/
+
+a:link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:grey;
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:active{
+    color:red;
 }
