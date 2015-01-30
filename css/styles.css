@@ -1,3 +1,53 @@
-		img { 
-		width:50px;
-		}
+/*GLOBAL SELECTORS */
+
+*{
+
+}
+
+body{
+ color: black;
+ background-image:linear-gradient(deepskyblue 5%, dodgerblue);
+
+}
+
+
+
+#contact{
+    float:right;
+    margin-right:10%;
+}
+
+.box{
+ background: rgba(255,255,255,.6);
+ text-align: center;
+ max-width: 50%;
+ margin-left: 30%;
+ margin-right: 30%;
+ margin-top:5%;
+ margin-bottom:5%;
+ padding-bottom: 30px;
+padding-top: 30px;
+
+
+}
+
+#bio
+
+#col1{
+float:left;
+}
+
+#col2{
+float:right;
+}
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+img { 
+max-width:30px;
+max-height: 30px;
+min-width:30px;
+min-height: 30px;
+
+}
