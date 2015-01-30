@@ -64,7 +64,7 @@ margin-right:20%;
 
 
 #col1{
-margin-left:10%;
+margin-left:5%;
 max-width:40%;
 float:left;
 background-color:rgba(0,0,0,.1);
@@ -72,7 +72,7 @@ background-color:rgba(0,0,0,.1);
 }
 
 #col2{
-margin-right:10%;
+margin-right:5%;
 max-width:40%;
 float:right;
     background-color:rgba(0,0,0,.1);
