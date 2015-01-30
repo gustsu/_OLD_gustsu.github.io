@@ -31,8 +31,11 @@ body{
     margin-right:15%;
 }
 
+.span{
+    
+}
 .box{
-    font-family: 'Raleway', sans-serif;
+
  background: yellow;
  text-align: center;
  font-size: 70px;
@@ -42,11 +45,14 @@ body{
  margin-top:5%;
  margin-bottom:5%;
  padding-bottom: 30px;
- padding-top: 70px;
+ padding-top: 120px;
  border-radius: 100%;
  width:300px;
  height: 300px;
      box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, .2);
+color:yellow;
+    background: url(../img/100_5055.JPG);
+    background-size: contain;
 
 }
 
