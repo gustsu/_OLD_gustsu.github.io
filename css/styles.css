@@ -41,6 +41,7 @@ body{
  text-align: center;
 
  max-width: 50%;
+ max-height: 50%;
  margin-left: 41%;
  margin-right:30%;
  margin-top:5%;
@@ -221,15 +222,18 @@ a:active{
     width:100%;
     margin: 0;
 }
+.box{
+    display:none;
+}
 #box{
+    float:clear;
+    border-radius:0%;
     max-height: 10%;
     max-width: 10%;
     width: 100px;
     height: 100px;
-    display: none;
+    
 
-    width: 10px;
-    length:0px;
 }
 
 #col1{
