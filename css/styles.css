@@ -21,7 +21,7 @@ body{
 #contact{
     float:right;
 
-    margin-bottom: 1%;
+    margin-bottom:1%;
     margin-top:-1.5%;
     padding-right:5%;
     padding-left:10%;
@@ -42,9 +42,9 @@ body{
 
  max-width: 50%;
  max-height: 50%;
- margin-left: 41%;
- margin-right:30%;
- margin-top:5%;
+ margin-left: auto;
+margin-right: auto;
+ margin-top:10%;
  margin-bottom:5%;
  padding-bottom: 30px;
  padding-top: 120px;
@@ -200,8 +200,15 @@ a:active{
 
 
 
-@media (max-width:1200px) /*Danger Zone... Still need to fix this range (width:500-1200px)*/
+@media (max-width:1200px) 
 {
+    .box{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 50px;
+        font-size: 40px;
+        padding-top: 85px;
+    }
     #contact{
     padding-right:5%;
     padding-left:3%;
