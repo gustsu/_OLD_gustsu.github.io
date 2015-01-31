@@ -20,7 +20,7 @@ body{
 
 #contact{
     float:right;
-
+    text-align: center;
     margin-bottom:1%;
     margin-top:-1.5%;
     padding-right:5%;
@@ -200,7 +200,7 @@ a:active{
 
 
 
-@media (max-width:1200px) 
+@media (max-width:1100px) /*range of 500px to 1100px width*/
 {
     .box{
         width: 200px;
@@ -218,34 +218,66 @@ a:active{
     margin-right:2%;
     }
     
+    #main{
+    margin-left:5%;
+    margin-right:5%;
+        
+    
+    }
+    
+    col1{
+
+    max-width:100%;
+    padding-right: 5%;
+    margin-right: -5%;
+    }
+    col2{
+    margin-right:-5%;
+    margin-left:-5%;
+    max-width: 50%;
+    }
+    
+    h2{
+        margin:15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    p{
+
+        margin-right: 10px;
+    }
+    
 
 
 }
 
 @media (max-width:500px)  {
-#main{
-    
-    background:red;
-    width:100%;
-    margin: 0;
-}
+
 .box{
+    display: block;
     background-color: yellow;
     width:0px;
-    height: 0px;
+    height:0px;
     border-radius: 0%;
-
+    box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0);
     margin-top: 1px;
     margin-bottom: 140px;
     padding-top: 1%;
-    padding-left:0px;
-   margin-left:120px;
-    margin-right:100%;
+
+ margin-left: 10%;
+margin-right: 30%;
+    font-size: 70px;
+
 }
 
 #main{
+        background-color:rgba(0,0,0,.30);
+    width:100%;
+    margin: 0;
 display: block;
-padding: 60px 60px 60px 60px;
+padding: 0px 30px 60px 30px;
 }
     
     
@@ -257,7 +289,7 @@ margin-bottom: 30px
 }
 
 #contact{
-    float:left;
+    float:center;
     padding: 10% 1% 5% 1%;
     margin: 10% 10% 10% 10%;
     display: block;
@@ -273,11 +305,11 @@ padding:0 0 0 0;
     
     #col2{
          max-width: 100%;
-width:500px;
 float:none;
 margin:0 0 0 0;
 padding:0 0 0 0;
 }
+    
     
     
 }
