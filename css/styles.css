@@ -23,12 +23,12 @@ body{
 
     margin-bottom: 1%;
     margin-top:-1.5%;
-    padding-right:10%;
+    padding-right:5%;
     padding-left:10%;
     
     
     margin-left:5%;
-    margin-right:15%;
+    margin-right:5%;
 }
 
 .span{
@@ -76,7 +76,7 @@ padding-bottom:1%;
 padding-top:1%;
 margin-left:20%;
 margin-right:20%;
- box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, .3);
+ box-shadow: 10px 15px 20px 10px rgba(0, 0, 0, .3);
 }
 
 
@@ -88,7 +88,7 @@ max-width:40%;
 margin-bottom: 100px;
 float:left;
 background-color:rgba(255,255,255,.35);
- box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, .3);
+ box-shadow: 10px 15px 20px 10px  rgba(0, 0, 0, .3);
 }
 
 #col2{
@@ -99,7 +99,7 @@ max-width:40%;
 float:right;
     background-color:rgba(255,255,255,.35);
 margin-bottom: 100px;
-     box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, .3);
+     box-shadow: 10px 15px 20px 10px rgba(0, 0, 0, .3);
 
 }
 
@@ -196,4 +196,61 @@ a:active{
 
 /*media querys*/
 
-@media (max-width:
+
+
+
+@media (max-width:1300px)
+{
+    #contact{
+    padding-right:5%;
+    padding-left:3%;
+    
+    
+    margin-left:2%;
+    margin-right:2%;
+    }
+    
+
+
+}
+
+@media (max-width:900px)  {
+#main{
+    
+    background:red;
+    width:100%;
+    margin: 0;
+}
+#box{
+    display: none;
+
+    width: 10px;
+    length:0px;
+}
+#top{
+    width: 10px;
+    display: none;
+    width:100px;
+}
+    
+#col1{
+    max-width: 100%;
+width:500px;
+float:none;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+    
+    #col2{
+         max-width: 100%;
+width:500px;
+float:none;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+    
+    
+}
+
+
+
