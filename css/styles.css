@@ -222,17 +222,16 @@ a:active{
     margin: 0;
 }
 #box{
+    max-height: 10%;
+    max-width: 10%;
+    width: 100px;
+    height: 100px;
     display: none;
 
     width: 10px;
     length:0px;
 }
-#top{
-    width: 10px;
-    display: none;
-    width:100px;
-}
-    
+
 #col1{
     max-width: 100%;
 width:500px;
