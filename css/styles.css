@@ -225,16 +225,7 @@ a:active{
 .box{
     display:none;
 }
-#box{
-    float:clear;
-    border-radius:0%;
-    max-height: 10%;
-    max-width: 10%;
-    width: 100px;
-    height: 100px;
-    
 
-}
 
 #col1{
     max-width: 100%;
