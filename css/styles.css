@@ -37,73 +37,85 @@ body{
 .box{
 
 
- background: yellow;
- text-align: center;
+     background: yellow;
+     text-align: center;
 
- max-width: 50%;
- max-height: 50%;
- margin-left: auto;
-margin-right: auto;
- margin-top:10%;
- margin-bottom:5%;
- padding-bottom: 30px;
- padding-top: 120px;
- border-radius: 100%;
- width:300px;
- height: 300px;
+     max-width: 50%;
+     max-height: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:10%;
+     margin-bottom:5%;
+     padding-bottom: 30px;
+     padding-top: 120px;
+     border-radius: 100%;
+     width:300px;
+     height: 300px;
      box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, .2);
-color:yellow;
+    color:yellow;
     background: url(../img/100_5055.JPG);
     background-size: cover;
-font-family: 'Raleway', sans-serif;
-font-size: 70px;
-font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
     
-text-shadow:4px 4px 1px #222;
+    text-shadow:4px 4px 1px #222;
 }
 
 
 
 nav{
-margin-left:-2%;
-padding-left:4%;
+    margin-left:-2%;
+    padding-left:4%;
 }
 
 #main{
-background-color:rgba(255,255,255,.35);
-padding-left:2%;
-padding-right:2%;
-padding-bottom:1%;
-padding-top:1%;
-margin-left:20%;
-margin-right:20%;
+    background-color:rgba(255,255,255,.35);
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:1%;
+    padding-top:1%;
+    margin-left:20%;
+    margin-right:20%;
  box-shadow: 10px 15px 20px 10px rgba(0, 0, 0, .3);
 }
 
 
 #col1{
-min-width: 35%;
+    min-width: 35%;
     margin-top: 5%;
-margin-left:5%;
-max-width:40%;
-margin-bottom: 100px;
-float:left;
-background-color:rgba(255,255,255,.35);
- box-shadow: 10px 15px 20px 10px  rgba(0, 0, 0, .3);
+    margin-left:5%;
+    max-width:40%;
+    margin-bottom: 100px;
+    float:left;
+    background-color:rgba(255,255,255,.35);
+    box-shadow: 10px 15px 20px 10px  rgba(0, 0, 0, .3);
 }
 
+#col1 ol {
+    padding-right: 10px;
+    line-height: 1.1em;
+}
+
+#col1 li{
+margin-top: 10px;
+}
 #col2{
     min-width: 35%;
-margin-top: 5%;
-margin-right:5%;
-max-width:40%;
-float:right;
+    margin-top: 5%;
+    margin-right:5%;
+    max-width:40%;
+    float:right;
     background-color:rgba(255,255,255,.35);
-margin-bottom: 100px;
+    margin-bottom: 100px;
      box-shadow: 10px 15px 20px 10px rgba(0, 0, 0, .3);
 
 }
 
+#col2 ul {
+    padding-right: 10px;
+    line-height: 1.1em;
+}
 
 .verticalLine {
     border-left: thick solid #ff0000;
@@ -137,6 +149,7 @@ font-weight: bold;
 }
 h2{
 margin: 0px 20px;
+padding-left: 10px;
 font-family: 'Raleway', sans-serif;
 font-size: 30px;
 font-weight: bold;
@@ -230,16 +243,14 @@ a:active{
     
     }
     
-    col1{
-    width:4000px;
-    max-width:100%;
-    padding-right: 5%;
-    margin-right: 5%;
+    #col1{
+    margin-left: 0%;
+    max-width:50%;
+
     }
-    col2{
-    margin-right:5%;
-    margin-left:5%;
-    max-width: 50%;
+    #col2{
+    margin-right:0%;
+    max-width:45%;
     }
     
     h2{
