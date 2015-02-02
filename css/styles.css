@@ -265,6 +265,70 @@ a:active{
 
 }
 
+
+
+
+/*style tile*/
+
+/* Layout for Style Tile
+Feel free to change */
+section {
+    margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+    border: 1px solid #000;
+    float: left;
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.color-1{
+    background:red;
+
+
+}
+
+.color-2{
+    background:white;
+    
+
+}
+
+.color-3{
+    background:blue;
+    
+
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+    margin: 0;
+}
+
+/* Set Your Own Typography */
+
+h2{
+    margin:1em 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+
+
+
 @media (max-width:558px)  {
 
 .box{
