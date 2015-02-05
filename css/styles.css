@@ -21,8 +21,8 @@ ul, ol {
 
 .style-tile{
 background-color:maroon;
-background-image: url(../img/footer_lodyas.png);
-    /*background-image: url(../img/retina_wood.png);*/
+/*background-image: url(../img/footer_lodyas.png);*/
+    background-image: url(../img/Bg_Texture___wood_by_nortago.jpg);
 }
 
 .container{
@@ -30,7 +30,7 @@ padding: 10% 5% 10% 5%;
 margin: 20% 5% 0% 5%;
 color:grey;
 background-color:maroon;
-background-image:url(../img/white_wall.png); 
+background-image:url(../img/footer_lodyas.png); 
     /*background-image: url(../img/white_wall.png);*/
  box-shadow: -15px 20px 15px 10px rgba(0, 0, 0, .3);
 }
@@ -43,7 +43,7 @@ color:grey;
 .sec1{
     margin-right: 20%;
     padding:5% 5% 5% 5%;
-    background-image: url(../img/cubes.png)
+
     
 }
 
