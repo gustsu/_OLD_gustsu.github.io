@@ -5,8 +5,7 @@ box-sizing:border-box;
 
 }
 
-p{font-family: 'Droid Sans', sans-serif;
-    color:black;
+
 }
 ul, ol {
 
@@ -112,7 +111,7 @@ nav{
 
 
 #col1{
-    font-family: 'Droid Sans', sans-serif;
+
     min-width: 35%;
     margin-top: 5%;
     margin-left:5%;
@@ -132,7 +131,7 @@ nav{
 margin-top: 10px;
 }
 #col2{
-    font-family: 'Droid Sans', sans-serif;
+
     min-width: 35%;
     margin-top: 5%;
     margin-right:5%;
@@ -198,6 +197,8 @@ font-size: 20px;
 }
 
 h4{
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
 text-align: center;
 font-size: 16px;
 }
@@ -372,6 +373,7 @@ h2{
 p{    
 font-family: 'Titillium Web', sans-serif;
 font-weight: 300;
+
 }
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
@@ -422,7 +424,12 @@ margin-bottom: 30px
     display: block;
 }
 
-#col1{
+#col1,
+#col1 ul,
+#col1 li
+{
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
     max-width: 100%;
 width:500px;
 float:none;
@@ -431,7 +438,9 @@ padding:0 0 0 0;
 }
     
     #col2{
-         max-width: 100%;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+max-width: 100%;
 float:none;
 margin:0 0 0 0;
 padding:0 0 0 0;
