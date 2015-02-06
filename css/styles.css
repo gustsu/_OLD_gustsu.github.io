@@ -21,7 +21,7 @@ ul, ol {
 .style-tile{
 background-color:maroon;
 /*background-image: url(../img/footer_lodyas.png);*/
-    background-image: url(../img/escheresque_ste.png);
+    background-image: url(../img/wood4.jpg);
 }
 
 .container{
@@ -29,7 +29,7 @@ padding: 2% 5% 10% 5%;
 margin: 15% 5% 5% 5%;
 color:black;
 background-color:maroon;
-background-image:url(../img/Bg_Texture___wood_by_nortago.jpg);
+background-image:url(../img/white_wall.png);
     
     /*background-image: url(../img/white_wall.png);*/
  box-shadow: -15px 20px 15px 10px rgba(0, 0, 0, .3);
@@ -111,7 +111,7 @@ nav{
 
 
 #col1{
-
+    font-family: 'Titillium Web', sans-serif;
     min-width: 35%;
     margin-top: 5%;
     margin-left:5%;
@@ -123,11 +123,13 @@ nav{
 }
 
 #col1 ol {
+    font-family: 'Titillium Web', sans-serif;
     padding-right: 10px;
     line-height: 1.1em;
 }
 
 #col1 li{
+font-family: 'Titillium Web', sans-serif;
 margin-top: 10px;
 }
 #col2{
@@ -282,6 +284,8 @@ a:active{
     }
     
     #col1{
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
     margin-left: 0%;
     max-width:50%;
 
