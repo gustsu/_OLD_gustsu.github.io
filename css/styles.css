@@ -120,14 +120,19 @@ nav{
     box-shadow: 10px 15px 20px 10px  rgba(0, 0, 0, .3);
 }
 
+#col1 p{
+padding-top: -100px;
+}
+
 #col1 ol {
     font-family: 'Titillium Web', sans-serif;
-
+    
     padding-right: 10px;
     line-height: 1.1em;
 }
 
 #col1 li{
+
 font-family: 'Titillium Web', sans-serif;
 margin-top: 10px;
 }
@@ -190,6 +195,9 @@ font-weight: bold;
 color:black;
 line-height: 40px;
 }
+
+
+
 h3{
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
@@ -206,7 +214,9 @@ font-size: 16px;
 }
 
 h5{
-font-size:17px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-size:20px;
 font-weight: bold;
 }
 
@@ -398,8 +408,18 @@ font-size:16px;
     
     }
     
+    
+    
     h3{
     font-size:18px;
+    
+    }
+    
+        h5{
+        margin:15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 900;
     
     }
     p{
