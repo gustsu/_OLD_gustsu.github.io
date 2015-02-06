@@ -409,7 +409,13 @@ font-size:16px;
 }
 
 
+    .container{
+        margin: 5% 15% 2% 15%;
+    
 
+
+    
+    
 
 }
 
@@ -497,6 +503,12 @@ padding:0 0 0 0;
     font-size: 16px;
 }
     
+    
+        .container{
+        margin: 15% 0% 15% 0%;
+    }
+    
+
     
 }
 
