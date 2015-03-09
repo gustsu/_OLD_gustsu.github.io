@@ -6,6 +6,61 @@ box-sizing:border-box;
 }
 
 
+/*Bio 2*/
+
+.bio2{
+
+background:url(../img/wood_text/good6.jpg);
+
+
+}
+
+.bio-sec1{
+position:relative;
+}
+
+.temp{
+
+color:black;
+transition: transform .5s;  
+}
+.temp:hover{
+color:royalblue;
+transform: scale(1.5) translatex(1500px);
+
+}
+
+.temp2{
+
+color:grey;
+transition: transform 1s;  
+}
+.temp2:hover{
+color:crimson;
+transform: scale(1.5) rotate(-360deg);
+
+}
+
+
+
+.bio-container{
+width:1000px;    
+background:url(../img/whitediamond.png) fixed;
+border-radius:2%;
+margin: 10% auto;
+padding: 10% 10% 10% 10%;
+}
+        
+
+
+
+
+
+
+/*end bio 2*/
+
+
+
 
 
 
