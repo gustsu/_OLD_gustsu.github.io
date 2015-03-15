@@ -6,6 +6,60 @@ box-sizing:border-box;
 }
 
 
+h1{   
+
+font-family: 'Raleway', sans-serif;
+font-size: 70px;
+font-weight: bold;
+color: maroon;
+}
+h2{
+margin: 0px 20px;
+padding-left: 10px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-size: 30px;
+font-weight: bold;
+color:black;
+line-height: 40px;
+}
+
+
+
+h3{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+line-height: 50px;
+font-size: 26px;
+
+}
+
+h4{
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+text-align: center;
+font-size: 16px;
+}
+
+h5{
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-size:20px;
+font-weight: bold;
+}
+
+
+p{    
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+font-size:16px;
+}
+
+
+
+
+
+
 /*Bio 2*/
 
 .bio2{
@@ -46,7 +100,7 @@ transform: scale(1.5) rotate(-360deg);
 .bio-container{
 width:1000px;    
 background:url(../img/whitediamond.png) fixed;
-border-radius:2%;
+border-radius:104PX;
 margin: 10% auto;
 padding: 10% 10% 10% 10%;
 }
@@ -64,38 +118,16 @@ padding: 10% 10% 10% 10%;
 
 
 
+
+
+
+/*OLD BIO*/
+/*
+
 #bio-body{
  
  background-image:linear-gradient(to right,crimson -20%, blue);
 
-}
-
-.style-tile{
-background-color:maroon;
-/*background-image: url(../img/footer_lodyas.png);*/
-    background-image: url(../img/wood4.jpg);
-}
-
-.container{
-padding: 2% 5% 1% 5%;
-margin: 10% 30% 5% 30%;
-color:black;
-background-color:maroon;
-background-image:url(../img/white_wall.png);
-    
-    /*background-image: url(../img/white_wall.png);*/
- box-shadow: -15px 20px 15px 10px rgba(0, 0, 0, .3);
-}
-.container p{
-color:gray ;
-
-}
-
-
-.sec1{
-    margin:1% 1% 1% 1%;
-    padding:5% 5% 5% 5%;
-    background-color: white;
 }
 
 
@@ -112,9 +144,7 @@ color:gray ;
     margin-right:5%;
 }
 
-.span{
-    
-}
+
 .box{
 
 
@@ -303,6 +333,20 @@ margin-right: 20px;
     font-family: 'Raleway', sans-serif;
 font-weight: 900;
 }
+
+
+
+*/
+
+/*end old bio*/
+
+
+
+
+
+
+
+
 /*Pseudo Classes*/
 
 a:link{
@@ -336,8 +380,40 @@ a:active{
 
 /*style tile*/
 
-/* Layout for Style Tile
-Feel free to change */
+
+
+.container{
+padding: 2% 5% 1% 5%;
+margin: 10% 30% 5% 30%;
+color:black;
+background-color:maroon;
+background-image:url(../img/white_wall.png);
+    
+ box-shadow: -15px 20px 15px 10px rgba(0, 0, 0, .3);
+}
+.container p{
+color:gray ;
+
+}
+
+
+.sec1{
+    margin:1% 1% 1% 1%;
+    padding:5% 5% 5% 5%;
+    background-color: white;
+}
+
+
+
+
+.style-tile{
+background-color:maroon;
+/*background-image: url(../img/footer_lodyas.png);*/
+    background-image: url(../img/wood4.jpg);
+}
+
+
+
 section {
     margin: 20px 10px 20px 10px;
 }
@@ -397,18 +473,16 @@ h2, h3, p {
     margin: 0;
 }
 
-/* Set Your Own Typography */
 
 h2{
     margin:1em 0;
 }
-p{    
-font-family: 'Titillium Web', sans-serif;
-font-weight: 300;
-font-size:16px;
-}
+
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+
 
 
 
@@ -427,6 +501,7 @@ font-size:16px;
 
 @media (max-width:1320px) /*range of 558px to 1320px width*/
 {
+    /* OLD BIO DELETE
     .box{
         width: 200px;
         height: 200px;
@@ -494,6 +569,8 @@ font-size:16px;
              margin: 5px 5px;
     font-size: 14px;
 }
+    
+    */
 
 
     .container{
@@ -523,7 +600,7 @@ font-size:16px;
 
 
 @media (max-width:558px)  {
-
+/* OLD BIO DELETE
     
 p, h1, h2, h3, h4, h5, h6, li{
 color:white;
@@ -598,7 +675,7 @@ padding:0 0 0 0;
     font-size: 16px;
 }
     
-    
+    */
         .container{
         margin: 15% 0% 15% 0%;
     }
