@@ -11,7 +11,7 @@ h1{
 font-family: 'Raleway', sans-serif;
 font-size: 70px;
 font-weight: bold;
-color: maroon;
+color: orange;
 }
 h2{
 margin: 0px 20px;
@@ -379,6 +379,43 @@ a:active{
 
 
 /*style tile*/
+
+.stp{    
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+font-size:16px;
+}
+
+.sth1{   
+
+font-family: 'Raleway', sans-serif;
+font-size: 70px;
+font-weight: bold;
+color: maroon;
+}
+.sth2{
+margin: 0px 1px;
+padding-left: 1px;
+padding-top:20px;
+padding-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-size: 30px;
+font-weight: bold;
+color:black;
+line-height: 40px;
+}
+
+
+
+.sth3{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+line-height: 50px;
+font-size: 26px;
+
+}
+
 
 
 
