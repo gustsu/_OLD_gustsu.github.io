@@ -264,7 +264,7 @@ font-size:16px;
 display: block;
 margin: 300px auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
 width:75%;
-background:url(../img/retina_wood.png);
+background:url(../img/retina_wood_@2X.png);
 z-index: 5;
 }
 
