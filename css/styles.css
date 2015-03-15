@@ -22,7 +22,7 @@ padding-left: 10px;
 font-family: 'Raleway', sans-serif;
 font-weight: 900;
 font-size: 40px;
-font-weight: 400;
+
 color:#4af9ff;
 line-height: 40px;
 }
@@ -30,10 +30,11 @@ line-height: 40px;
 
 
 h3{
-font-family: 'Raleway', sans-serif;
+font-family: 'Titillium Web', sans-serif;
 font-weight: 400;
 line-height: 50px;
 font-size: 26px;
+margin-left: 50px;
 
 }
 
@@ -71,10 +72,11 @@ font-size:16px;
 
 
 /*IMPORTANT NOTE TO SELF: THIS TARETS ALL DIVS SITE-WIDE MAKE SURE AND ADD CLASSES TO ALL DIVS WITHOUT*/
+/*clouds animation credit to codepen user */
 /*clouds background credit to codepen user */
 
 .cloud {
-  position: absolute;
+  position: fixed;
   /*locked produces nice results as well try both*/
   top: 0px;
   width: 250px;
@@ -253,23 +255,39 @@ font-size:16px;
   }
 }
 /*END CLOUDS ANIMATION*/
+/*my addition to the clouds -- pretty cool combo when its position is fixed i think*/
+.cloud:hover{
+    display: none;
+}
+
+
 
 
 .indexbody{
-  background: linear-gradient(#add8e6, #ffffff);
+  background: linear-gradient(#add8e6 60%, #ffffff);
 }
 
 
 .indexcontainer{
-display: block;
-margin: 300px auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
+border-radius: 174px;
+margin: 15% auto 5% auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
 width:75%;
 background:url(../img/retina_wood_@2X.png);
 z-index: 5;
 }
 
+.welcome{
+    text-shadow:4px 2px 22.5px #000;
+    transition-property: transform;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+}
 
-
+.welcome:hover{
+transform: scale(1.25);
+color:#00ffb7;
+}
+}
 
 
 
@@ -577,7 +595,7 @@ font-weight: 900;
 
 a:link{
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     color:red;
     text-decoration: none;
 }
@@ -618,18 +636,19 @@ font-family: 'Raleway', sans-serif;
 font-size: 70px;
 font-weight: bold;
 color: maroon;
+text-align: left;
 }
 .sth2{
 margin: 0px 1px;
 padding-left: 1px;
 padding-top:20px;
-padding-bottom: 10px;
+padding-bottom: 14px;
 font-family: 'Raleway', sans-serif;
 font-weight: 900;
 font-size: 30px;
 font-weight: bold;
 color:black;
-line-height: 40px;
+line-height: 30px;
 }
 
 
@@ -637,10 +656,11 @@ line-height: 40px;
 .sth3{
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
-line-height: 50px;
+line-height: 10px;
 font-size: 26px;
-
+margin-left: 0px;
 }
+
 
 
 
@@ -732,14 +752,7 @@ background-image:url(../img/escheresque_ste.png);
 
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-    margin: 0;
-}
 
-
-h2{
-    margin:1em 0;
-}
 
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
