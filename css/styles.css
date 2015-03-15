@@ -9,18 +9,21 @@ box-sizing:border-box;
 h1{   
 
 font-family: 'Raleway', sans-serif;
-font-size: 70px;
-font-weight: bold;
-color: orange;
+font-size: 140px;
+font-weight: 400;
+color: #4af9ff;
+margin:0 auto;
+    text-align: center;
+    text-transform: uppercase;
 }
 h2{
 margin: 0px 20px;
 padding-left: 10px;
 font-family: 'Raleway', sans-serif;
 font-weight: 900;
-font-size: 30px;
-font-weight: bold;
-color:black;
+font-size: 40px;
+font-weight: 400;
+color:#4af9ff;
 line-height: 40px;
 }
 
@@ -57,6 +60,229 @@ font-size:16px;
 
 
 
+
+
+
+
+
+
+
+/*index.html styles*/
+
+
+/*IMPORTANT NOTE TO SELF: THIS TARETS ALL DIVS SITE-WIDE MAKE SURE AND ADD CLASSES TO ALL DIVS WITHOUT*/
+/*clouds background credit to codepen user */
+
+.cloud {
+  position: absolute;
+  /*locked produces nice results as well try both*/
+  top: 0px;
+  width: 250px;
+  height: 200px;
+  background: -webkit-linear-gradient(#ffffff, #808080);
+  background: -o-linear-gradient(#ffffff, #808080);
+  background: -moz-linear-gradient(#ffffff, #808080);
+  background: linear-gradient(#ffffff, #808080);
+  border-radius: 100%;
+  opacity: 0;
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+}
+.cloud::before,
+.cloud::after {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  content: " ";
+  display: block;
+  left: -80px;
+  top: 100px;
+  border-radius: 100%;
+  background: -webkit-linear-gradient(#ffffff, #808080);
+  background: -o-linear-gradient(#ffffff, #808080);
+  background: -moz-linear-gradient(#ffffff, #808080);
+  background: linear-gradient(#ffffff, #808080);
+}
+.cloud::after {
+  left: 200px;
+  height: 80px;
+  top: -50px;
+}
+.cloud:nth-child(1) {
+  animation: moving 31s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 31s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 175px;
+  top: 20px;
+}
+.cloud:nth-child(2) {
+  animation: moving 25s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 100px;
+  top: 20px;
+}
+.cloud:nth-child(3) {
+  animation: moving 28s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 28s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 150px;
+  top: 130px;
+}
+.cloud:nth-child(4) {
+  animation: moving 20s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 200px;
+  top: 100px;
+}
+.cloud:nth-child(5) {
+  animation: moving 27s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 27s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 125px;
+  top: 50px;
+}
+.cloud:nth-child(6) {
+  animation: moving 22s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 22s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 150px;
+  top: 50px;
+}
+.cloud:nth-child(7) {
+  animation: moving 28s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 28s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 225px;
+  top: 75px;
+}
+.cloud:nth-child(8) {
+  animation: moving 30s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 505px;
+  top: 60px;
+}
+.cloud:nth-child(9) {
+  animation: moving 25s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 375px;
+  top: 140px;
+}
+.cloud:nth-child(10) {
+  animation: moving 23s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 23s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 525px;
+  top: 70px;
+}
+.cloud:nth-child(11) {
+  animation: moving 22s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 22s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 375px;
+  top: 50px;
+}
+.cloud:nth-child(12) {
+  animation: moving 25s;
+  animation-iteration-coint: infinite;
+  animation-timing-function: linear;
+  -webkit-animation: moving 25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  left: 275px;
+  top: 60px;
+}
+@-webkit-keyframes moving {
+  0% {
+    margin-left: 0%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+@keyframes moving {
+  0% {
+    margin-left: 0%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+/*END CLOUDS ANIMATION*/
+
+
+.indexbody{
+  background: linear-gradient(#add8e6, #ffffff);
+}
+
+
+.indexcontainer{
+display: block;
+margin: 300px auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
+width:75%;
+background:url(../img/retina_wood.png);
+z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end index.html styles*/
 
 
 
