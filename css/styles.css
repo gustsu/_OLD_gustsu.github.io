@@ -9,12 +9,13 @@ box-sizing:border-box;
 h1{   
 
 font-family: 'Raleway', sans-serif;
-font-size: 140px;
+font-size: 100px;
 font-weight: 300;
 color: #4af9ff;
 margin:0 auto;
     text-align: center;
     text-transform: uppercase;
+
 }
 h2{
 margin: 0px 20px;
@@ -25,16 +26,16 @@ font-size: 40px;
 
 color:#4af9ff;
 line-height: 40px;
-    text-transform: uppercase;
+
 }
 
 
 
 h3{
 font-family: 'Titillium Web', sans-serif;
-font-weight: 400;
+font-weight: 300;
 line-height: 50px;
-font-size: 26px;
+font-size: 28px;
 margin-left: 50px;
 margin-right: 50px;
 }
@@ -60,6 +61,55 @@ font-weight: 300;
 font-size:16px;
 }
 
+
+/*MENU GLOBAL CREDIT TO CODEPEN USER vavik96*/
+
+
+
+nav {
+  max-width: FULL;
+  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+  padding: 75px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+   
+  margin-right:20px;
+margin-left:20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:400;
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(74, 249, 255, 0.35);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/*END MENU */
 
 
 
@@ -90,6 +140,7 @@ font-size:16px;
   opacity: 0;
   filter: blur(20px);
   -webkit-filter: blur(20px);
+  z-index: -1;
 }
 .cloud::before,
 .cloud::after {
@@ -272,28 +323,38 @@ font-size:16px;
 .indexcontainer{
 border-radius: 174px;
 margin: 15% auto 5% auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
-width:75%;
+width:60%;
 background:url(../img/retina_wood_@2X.png);
 z-index: 5;
 }
 
 .welcome{
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     text-shadow:4px 2px 22.5px #000;
-    transition-property: transform;
+    transition-property: transform, color, letter-spacing;
   transition-duration: .25s;
   transition-timing-function: linear;
+    letter-spacing: 13px;
 }
 .welcome2{
     position: relative;
+    margin-top:  12px;
     text-shadow:4px 2px 22.5px #000;
-    transition-property: transform;
+    transition-property: transform, color, letter-spacing;
   transition-duration: .25s;
   transition-timing-function: linear;
+  margin-bottom:  -31px;
 }
 
-.welcome:hover, .welcome2:hover{
+.welcome:hover{
+letter-spacing: 23px;
+transform: scale(1.25);
+color:#00ffb7;
+}
+
+.welcome2:hover{
+letter-spacing: 5px;
 transform: scale(1.25);
 color:#00ffb7;
 }
@@ -305,18 +366,35 @@ color:#00ffb7;
 border-radius:100%;
 margin-left: 50px;
 margin-right: 50px;
-margin-bottom: 50px;
+margin-bottom: 25px;
+transition-property: transform;
+transition-duration: .25s;
+transition-timing-function: linear;
 }
 .indexcontact2
 {
-margin-top: 100px;
+width:150px;
+height:150px;
+margin-top: 20px;
 margin-bottom: 50px;
 border-radius:100%;
+transition-property: transform;
+transition-duration: .25s;
+transition-timing-function: linear;
+}
+
+
+.indexcontact:hover, 
+.indexcontact2:hover{
+    transform:scale(1.25);
+    
 }
 
 .h3i{
-margin-left: 200px;
-margin-right: 200px;
+color:#222;
+margin-left: 100px;
+margin-right: 100px;
+margin-top:-39px;
 }
 
 
@@ -615,27 +693,27 @@ font-weight: 900;
 
 /*Pseudo Classes*/
 
-a:link{
+.sta:link{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     color:red;
     text-decoration: none;
 }
 
-a:visited{
+.sta:visited{
     color:red;
 }
 
-a:visited.selected{
+.sta:visited.selected{
     color:red;
     background: black;
 }
-a:hover{
+.sta:hover{
     
     color:maroon;
 }
 
-a:active{
+.sta:active{
     color:red;
 }
 
