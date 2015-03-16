@@ -1,9 +1,5 @@
 /*GLOBAL SELECTORS */
 
-@-ms-viewport{
-  width: device-width;
-}
-
 *{
 box-sizing:border-box;
 
