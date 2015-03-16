@@ -323,9 +323,9 @@ nav ul li a:hover {
 .indexcontainer{
 border-radius: 174px;
 margin: 5% auto 1% auto; 
-width:60%;
-background:url(../img/white_wall.png);/*
-background:url(../img/retina_wood_@2X.png);*/
+width:60%;/*
+background:url(../img/white_wall.png);*/
+background:url(../img/retina_wood_@2X.png);
 z-index: 5;
 }
 
@@ -398,7 +398,7 @@ width:150px;
 height:150px;
 background: url(../img/selfie.jpg);
 margin-top: 20px;
-margin-bottom: 50px;
+margin-bottom: 32px;
 border-radius:100%;
 
 }
