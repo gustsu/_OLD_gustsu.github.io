@@ -1,5 +1,9 @@
 /*GLOBAL SELECTORS */
 
+@-ms-viewport{
+  width: device-width;
+}
+
 *{
 box-sizing:border-box;
 
@@ -322,7 +326,7 @@ nav ul li a:hover {
 
 .indexcontainer{
 border-radius: 174px;
-margin: 15% auto 5% auto; 
+margin: 5% auto 1% auto; 
 width:60%;
 background:url(../img/white_wall.png);/*
 background:url(../img/retina_wood_@2X.png);*/
@@ -345,7 +349,7 @@ z-index: 5;
     transition-property: transform, color, letter-spacing;
   transition-duration: .25s;
   transition-timing-function: linear;
-  margin-bottom:  -31px;
+  margin-bottom:  -15px;
 }
 
 .welcome:hover{
