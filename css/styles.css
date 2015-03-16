@@ -373,7 +373,7 @@ margin-left:20px;
 margin-right:20px;
 margin-bottom: 25px;
 transition-property: transform, background;
-transition-duration: .25s;
+transition-duration: .1s;
 transition-timing-function: linear;
 border-radius: 100%;
 
@@ -383,7 +383,7 @@ border-radius: 100%;
 margin:0 auto;
 width:150px;
 height:150px;
-background: url(../img/100_5055.JPG);
+background: url(../img/selfie2.jpg);
 margin-top: 20px;
 margin-bottom: 50px;
 border-radius:100%;
