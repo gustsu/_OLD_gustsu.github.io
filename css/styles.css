@@ -322,9 +322,10 @@ nav ul li a:hover {
 
 .indexcontainer{
 border-radius: 174px;
-margin: 15% auto 5% auto; /*using pixel's here inorder to never go under the clouds TOO MUCH*/
+margin: 15% auto 5% auto; 
 width:60%;
-background:url(../img/retina_wood_@2X.png);
+background:url(../img/white_wall.png);/*
+background:url(../img/retina_wood_@2X.png);*/
 z-index: 5;
 }
 
@@ -363,31 +364,67 @@ color:#00ffb7;
 
 .indexcontact
 {
-border-radius:100%;
-margin-left: 50px;
-margin-right: 50px;
+display: inline-block;
+width: 50px;
+height:50px;
+
+
+margin-left:20px;
+margin-right:20px;
 margin-bottom: 25px;
-transition-property: transform;
+transition-property: transform, background;
 transition-duration: .25s;
 transition-timing-function: linear;
+border-radius: 100%;
+
 }
-.indexcontact2
+.indexcontacttop
 {
+margin:0 auto;
 width:150px;
 height:150px;
+background: url(../img/100_5055.JPG);
 margin-top: 20px;
 margin-bottom: 50px;
 border-radius:100%;
-transition-property: transform;
-transition-duration: .25s;
-transition-timing-function: linear;
+
+}
+
+#indexcontactg{
+background: url(../img/githubbw.png);
+}
+
+#indexcontactm{
+background: url(../img/mail2bw.png);
+}
+
+#indexcontactf{
+background: url(../img/fbbw.png);
 }
 
 
-.indexcontact:hover, 
-.indexcontact2:hover{
-    transform:scale(1.25);
-    
+#indexcontactg:hover{
+background: url(../img/github.png);
+transform: scale(1.1);
+}
+
+#indexcontactm:hover{
+background: url(../img/mail2.png);
+transform: scale(1.1);
+}
+
+#indexcontactf:hover{
+background: url(../img/fb.png);
+transform: scale(1.1);
+}
+
+
+
+
+
+.indexcontact:hover{
+    transform: scale(1.1);
+    background: url(../img/github.png);
 }
 
 .h3i{
