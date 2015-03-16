@@ -25,6 +25,7 @@ font-size: 40px;
 
 color:#4af9ff;
 line-height: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -649,6 +650,7 @@ font-size: 30px;
 font-weight: bold;
 color:black;
 line-height: 30px;
+text-transform: none;
 }
 
 
