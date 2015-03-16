@@ -10,7 +10,7 @@ h1{
 
 font-family: 'Raleway', sans-serif;
 font-size: 140px;
-font-weight: 400;
+font-weight: 300;
 color: #4af9ff;
 margin:0 auto;
     text-align: center;
@@ -36,7 +36,7 @@ font-weight: 400;
 line-height: 50px;
 font-size: 26px;
 margin-left: 50px;
-
+margin-right: 50px;
 }
 
 h4{
@@ -278,25 +278,46 @@ z-index: 5;
 }
 
 .welcome{
+    position: relative;
+    padding-top: 100px;
+    text-shadow:4px 2px 22.5px #000;
+    transition-property: transform;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+}
+.welcome2{
+    position: relative;
     text-shadow:4px 2px 22.5px #000;
     transition-property: transform;
   transition-duration: .25s;
   transition-timing-function: linear;
 }
 
-.welcome:hover{
+.welcome:hover, .welcome2:hover{
 transform: scale(1.25);
 color:#00ffb7;
 }
+
+
+
+.indexcontact
+{
+border-radius:100%;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.indexcontact2
+{
+margin-top: 100px;
+margin-bottom: 50px;
+border-radius:100%;
 }
 
-
-
-
-
-
-
-
+.h3i{
+margin-left: 200px;
+margin-right: 200px;
+}
 
 
 
