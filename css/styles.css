@@ -335,7 +335,7 @@ nav ul li a:hover {
 
 .indexcontainer{
     border-radius: 174px;
-    margin: 5% auto 1.5% auto; 
+    margin: 4.5% auto 1% auto; 
     width:60%;/*
     background:url(../img/white_wall.png);*/
     background:url(../img/retina_wood.png);
@@ -383,7 +383,7 @@ nav ul li a:hover {
     height:50px;
     margin-left:20px;
     margin-right:20px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     transition-property: transform, background;
     transition-duration: .1s;
     transition-timing-function: linear;
