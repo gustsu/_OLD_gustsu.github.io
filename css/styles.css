@@ -466,7 +466,16 @@ nav ul li a:hover {
 
 /*end gallery*/
 
+
+
 /*FINAL BIO & RESUME (BIO4) STYLES*/
+
+.h2bio{
+    text-shadow:4px 2px 22.5px #000;
+    padding-left: 100px;
+}
+
+
 .largeselfie{
 width: 200px;
 height:200px;
@@ -652,13 +661,14 @@ section {
 
 /*Pseudo Classes*/
 
-a:link{
 
+a:link{
+    color:inherit;
     text-decoration: none;
 }
 
 a:visited{
-
+    color:inherit;
 }
 
 
