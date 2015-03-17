@@ -467,6 +467,14 @@ nav ul li a:hover {
 /*end gallery*/
 
 /*FINAL BIO & RESUME (BIO4) STYLES*/
+.largeselfie{
+width: 200px;
+height:200px;
+background: url(../img/selfie6.jpg);
+border-radius: 100%;
+}
+
+
 .bh1{
     font-size: 50pt;
     padding-top: 60px;
@@ -482,53 +490,6 @@ nav ul li a:hover {
 
 
 /*END FINAL BIO (BIO4)*/
-
-/*Bio 2*/
-
-.bio2{
-    background:url(../img/wood_text/good6.jpg);
-    /*background:linear-gradient(black,rgba(0,0,0,.0));*/
-}
-
-.bio-sec1{
-    position:relative;
-}
-
-.temp{
-
-color:black;
-    transition: transform .5s;  
-}
-.temp:hover{
-    color:royalblue;
-    transform: scale(1.5) translatex(1500px);
-
-}
-
-.temp2{
-
-color:grey;
-    transition: transform 1s;  
-}
-.temp2:hover{
-    color:crimson;
-    transform: scale(1.5) rotate(-360deg);
-
-}
-
-
-
-.bio-container{
-    width:1000px;    
-    background:url(../img/whitediamond.png) fixed;
-    border-radius:104PX;
-    margin: 10% auto;
-    padding: 10% 10% 10% 10%;
-}
-        
-
-
-/*end bio 2*/
 
 
 
