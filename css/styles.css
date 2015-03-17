@@ -444,10 +444,6 @@ nav ul li a:hover {
 
 
 
-
-
-
-
 .h3i{
     color:#222;
     margin-left: 100px;
@@ -459,6 +455,23 @@ nav ul li a:hover {
 
 
 /*end index.html styles*/
+
+/*Gallery styles*/
+.gh1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+
+}
+
+
+/*end gallery*/
+
+
+
+
+
+
 
 
 
@@ -505,10 +518,6 @@ color:grey;
     padding: 10% 10% 10% 10%;
 }
         
-
-
-
-
 
 
 /*end bio 2*/
@@ -843,9 +852,7 @@ a:visited{
     h3{
     font-size: 22px;
     }
-    
-
-    
+       
 
 }
 
@@ -869,10 +876,6 @@ a:visited{
     }
 
 }
-
-
-
-
 
 
 
