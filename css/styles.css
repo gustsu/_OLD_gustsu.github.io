@@ -53,7 +53,6 @@ h5{
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size:20px;
-    font-weight: bold;
 }
 
 
@@ -467,13 +466,22 @@ nav ul li a:hover {
 
 /*end gallery*/
 
+/*FINAL BIO & RESUME (BIO4) STYLES*/
+.bh1{
+    font-size: 50pt;
+    padding-top: 60px;
+    padding-bottom: 44px;
 
 
+}
 
 
+.navb{
+    padding: 20px 0 50px 0;
+}
 
 
-
+/*END FINAL BIO (BIO4)*/
 
 /*Bio 2*/
 
@@ -864,9 +872,8 @@ a:visited{
     padding-top: 90px;
     }
     
-    h1{   
+    h1,.bh1{   
         font-size: 40px;
-        font-weight: 300;
 
     }
     
