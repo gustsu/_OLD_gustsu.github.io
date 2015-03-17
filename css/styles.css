@@ -1,12 +1,16 @@
 /*GLOBAL SELECTORS */
 
-*{
-    box-sizing:border-box;
-}
+
 
 nav ul{
     padding-left: 0px;
 }
+
+
+
+
+
+
 
 
 h1{   
@@ -455,6 +459,14 @@ nav ul li a:hover {
 
 /*end index.html styles*/
 
+
+
+
+
+
+
+
+
 /*Gallery styles*/
 .gh1{
     padding-top: 60px;
@@ -464,7 +476,118 @@ nav ul li a:hover {
 }
 
 
+/*Gallery credit to Colin Manikoth*/
+
+.gal{
+position: relative;
+  margin: 0 auto;
+padding-left: 50px;
+}
+/* Layout of gallery items*/
+figure { 
+
+  background: #fff;
+  border-bottom: 20px solid #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  
+  /* layout */
+  float: left;
+  height: 200px;
+  margin: 20px;
+  width: 200px;
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+
+
+
+/* Caption Container */
+.thumbnail {
+
+  /* parent for caption */ 
+  position: relative;
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+  height: 200px;
+  width: 200px;
+  /* hide overflowing content */ 
+  overflow: hidden;
+}
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  font-size: 16px;
+  font-style: italic;
+  padding: .25em;
+  text-align: center;
+  
+  position: absolute;
+  margin: 0;
+  /* value is height of image */   
+  bottom: -80px;
+  
+ 
+}
+
+/* Caption - Last Frame */
+.thumbnail:hover p {
+  bottom:0;
+  -webkit-animation: slideInUp .5s;
+}
+
+
+/*from animate.css*/ 
+
+  @-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity:0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+
+
+
+
+
 /*end gallery*/
+
+
+
+
+
+
+
+
+
 
 
 /*new style tile*/
@@ -546,7 +669,7 @@ height: 100px;
 
 
 
-/*style tile*/
+/*style tile 1*/
 
 .stp{    
     font-family: 'Titillium Web', sans-serif;
