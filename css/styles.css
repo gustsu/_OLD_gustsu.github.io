@@ -35,7 +35,7 @@ h2{
 
 h3{
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 50px;
     font-size: 28px;
     margin-left: 50px;
@@ -327,7 +327,8 @@ nav ul li a:hover {
 
 
 
-.indexbody{
+.indexbody,
+.gallerybody{
   background: linear-gradient(#add8e6 60%, #ffffff);
 }
 
@@ -768,6 +769,20 @@ a:visited{
 
 
 @media (max-width:981px){
+    
+#indexcontactg{
+    background: url(../img/github.png);
+}
+
+#indexcontactm{
+    background: url(../img/mail2.png);
+}
+
+#indexcontactf{
+    background: url(../img/fb.png);
+}
+
+    
      h1{   
 
         font-size: 80px;
@@ -829,19 +844,7 @@ a:visited{
     font-size: 22px;
     }
     
-    #indexcontactg{
-    background: url(../img/github.png);
-}
 
-#indexcontactm{
-    background: url(../img/mail2.png);
-}
-
-#indexcontactf{
-    background: url(../img/fb.png);
-}
-
-    
     
 
 }
