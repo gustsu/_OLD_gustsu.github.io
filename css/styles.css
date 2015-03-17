@@ -58,8 +58,8 @@ h5{
 
 p{    
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 300;
-    font-size:16px;
+    font-weight: 400;
+    font-size:22px;
 }
 
 /*END GLOBALS*/
@@ -497,6 +497,25 @@ border-radius: 100%;
     padding: 20px 0 50px 0;
 }
 
+
+.newdiv{
+background: red;
+width: 100px;
+height: 100px;
+}
+
+
+.floatfix{
+    float:left;
+
+
+}
+
+.blist{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size:22px;
+}
 
 /*END FINAL BIO (BIO4)*/
 
