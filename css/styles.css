@@ -106,8 +106,18 @@ nav ul li a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
+/*my code*/
+#selected {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(74, 249, 255, 0.2);
+  color: rgba(0, 0, 0, 0.7);
+}
 
-
+#selected:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(74, 249, 255, 0.35);
+  color: rgba(0, 0, 0, 0.7);
+}
 
 /*END MENU */
 
@@ -396,7 +406,7 @@ border-radius: 100%;
 margin:0 auto;
 width:150px;
 height:150px;
-background: url(../img/selfie2.jpg);
+background: url(../img/selfie3.png);
 margin-top: 20px;
 margin-bottom: 32px;
 border-radius:100%;
