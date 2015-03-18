@@ -964,6 +964,19 @@ section {
 transition: color, transform .3s;
 }
 
+.largelink{
+    
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+
+.link:hover{
+color:#4af9ff; 
+transform: rotate(-360deg);
+}
 
 
 /*Pseudo Classes*/
@@ -984,7 +997,7 @@ color:#00ffb7;
 
 .link:hover{
 color:#4af9ff; 
-transform: rotate(-360deg);
+transform:  rotate(-360deg) color;
 }
 
 
