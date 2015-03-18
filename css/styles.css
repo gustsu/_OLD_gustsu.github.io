@@ -961,7 +961,7 @@ section {
 
 /*LINK not zelda i wish*/
 .link{
-transition: color, transform .3s;
+transition: color .5s;
 }
 
 .largelink{
@@ -973,10 +973,6 @@ transition: color, transform .3s;
 
 
 
-.link:hover{
-color:#4af9ff; 
-transform: rotate(-360deg);
-}
 
 
 /*Pseudo Classes*/
@@ -996,8 +992,7 @@ color:#00ffb7;
 
 
 .link:hover{
-color:#4af9ff; 
-transform:  rotate(-360deg) color;
+color:#00ff30; 
 }
 
 
