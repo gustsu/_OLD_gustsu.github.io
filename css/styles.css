@@ -138,8 +138,8 @@ nav ul li a:hover {
 
 
 /*IMPORTANT NOTE TO SELF: THIS TARETS ALL DIVS SITE-WIDE MAKE SURE AND ADD CLASSES TO ALL DIVS WITHOUT*/
-/*clouds animation credit to codepen user */
-/*clouds background credit to codepen user */
+/*clouds animation credit to codepen user CLAARMAN*/
+/*clouds background credit to codepen user CLAARMAN*/
 
 .cloud {
   position: fixed;
@@ -606,11 +606,37 @@ figure {
 
 /*FINAL BIO & RESUME (BIO4) STYLES*/
 
+.h3bio{
+    margin-left: 19px;
+    color:#4af9ff;
+
+}
+
+
+ul {
+    list-style-type: square;
+}
+
 .h2bio{
     text-shadow:4px 2px 22.5px #000;
     padding-left: 100px;
 }
 
+
+.biop{
+        margin-left: 40px;
+        margin-right: 40px;
+
+}
+
+.biop2{
+        font-size: 14.5px;
+        margin: 0 auto;
+        padding-top: 25px;
+        padding-left: 123px;
+        padding-right: 123px;
+
+}
 
 .largeselfie{
 width: 200px;
@@ -815,6 +841,31 @@ section {
 
 
 /*Pseudo Classes*/
+
+.link:link{
+
+    
+}
+
+.link:visited{
+
+    
+}
+
+
+.link:hover{
+
+    
+}
+
+
+.link:active{
+
+    
+}
+
+
+
 
 
 a:link{
