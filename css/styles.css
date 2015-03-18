@@ -39,7 +39,7 @@ h2{
 
 h3{
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 50px;
     font-size: 28px;
     margin-left: 50px;
@@ -54,11 +54,25 @@ h4{
 }
 
 h5{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
     font-size:20px;
 }
 
+h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+    margin:10px 25px 10px 25px;
+}
+
+.h6light{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    margin:10px 25px 10px 25px;
+
+}
 
 p{    
     font-family: 'Titillium Web', sans-serif;
@@ -448,6 +462,7 @@ nav ul li a:hover {
 
 
 .h3i{
+    font-weight: 400;
     color:#222;
     margin-left: 100px;
     margin-right: 100px;
@@ -605,11 +620,17 @@ figure {
 /*end new style tile*/
 
 /*FINAL BIO & RESUME (BIO4) STYLES*/
+.rightsideyo{
+    margin-left: 20px;
+
+}
+
 
 .h3bio{
-    margin-left: 19px;
+    font-size: 34px;
+    margin-left: 24px;
     color:#4af9ff;
-
+    text-shadow: 4px 2px 22.5px #000;
 }
 
 
@@ -624,8 +645,8 @@ ul {
 
 
 .biop{
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
 
 }
 
