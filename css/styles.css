@@ -594,7 +594,11 @@ figure {
 .sh1{
     padding-top: 60px;
     padding-bottom: 50px;
+}
 
+.newst{
+    margin: 0 auto;
+    width:50%;
 
 }
 
