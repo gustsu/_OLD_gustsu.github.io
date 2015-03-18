@@ -661,7 +661,8 @@ figure {
 .pattern-4,
 .pattern-5,
 .pattern-6{
-    border: 5px solid #fff;
+    border-radius:100%;
+    border: 3px solid #fff;
     float: left;
     margin: 0 10px;
     height: 75px;
