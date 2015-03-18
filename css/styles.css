@@ -612,6 +612,15 @@ figure {
 
 
 /*new style tile*/
+.emst{
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size:18px;
+
+}
+
+
 .stnewh1{
   color: #4af9ff;
   text-align: left;
@@ -624,6 +633,8 @@ figure {
   text-shadow: 4px 2px 22.5px #000;
   margin-left: 0px;
   padding-left: 0px;
+  margin-bottom:  15px;
+  margin-top: 30px;;
 }
 
 .stnewh3{
@@ -632,6 +643,7 @@ figure {
   text-shadow: 4px 2px 22.5px #000;
     margin-left: 0px;
   padding-left: 0px;
+  margin-bottom: 10px;
 }
 
 .stnewhp{
