@@ -657,6 +657,7 @@ figure {
 .color-4,
 .color-5,
 .color-6,
+.color-7,
 .pattern-4,
 .pattern-5,
 .pattern-6{
@@ -689,6 +690,9 @@ background: #00ffb7;
 }
 
 .color-6{
+background: #00ff30;
+}
+.color-7{
 background: #000;
 }
 
@@ -981,23 +985,23 @@ transition: color .5s;
 
 
 .link:link{
-color:#00ffb7;
+color:#00ff30;
     
 }
 
 .link:visited{
-color:#00ffb7;
+color:#00ff30;
     
 }
 
 
 .link:hover{
-color:#00ff30; 
+color:#000; 
 }
 
 
 .link:active{
-color:#4af9ff;
+color:#00ff30;
     
 }
 
@@ -1169,6 +1173,7 @@ a:visited{
 .color-4,
 .color-5,
 .color-6,
+.color-7
 .pattern-4,
 .pattern-5,
 .pattern-6{
