@@ -1252,6 +1252,9 @@ a:visited{
 
     /*everything below 559px*/
 @media (max-width:558px)  {
+    .cloud{
+    display: none;
+    }
 
     .container{
         margin: 15% 0% 15% 0%;
