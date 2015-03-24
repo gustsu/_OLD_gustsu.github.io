@@ -1259,10 +1259,25 @@ a:visited{
     .container{
         margin: 15% 0% 15% 0%;
     }
+    
+    h1,.bh1{   
+        font-size: 36px;
 
+    }
 
 }
     /*end style tile media queries*/
+
+@media (max-width:340px){
+    h1,.bh1{   
+        font-size: 28px;
+
+    }
+
+
+
+}
+
 
 
 /*end media queries */
