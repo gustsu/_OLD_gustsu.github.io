@@ -359,8 +359,8 @@ nav ul li a:hover {
 .indexcontainer{
     border-radius: 174px;
     margin: 4.5% auto 1% auto; 
-    width:60%;/*
-    background:url(../img/white_wall.png);*/
+    width:60%;
+    opacity: .9;
     background:url(../img/retina_wood.png);
     z-index: 5;
 }
