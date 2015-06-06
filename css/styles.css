@@ -1,14 +1,19 @@
 
 
 #block1{
-width:500px;
+width:582px;
 height: 500px;
+margin: 0 auto;
+padding-left: 32px;
+}
+
+#block2{
 margin: 0 auto;
 }
 
 p{
-font-weight: 400;
-font-family: 'Rokkitt', serif;
+font-weight: 300;
+font-family: helvetica, sans-serif;
 font-size: 16pt;
 
 }
@@ -28,27 +33,37 @@ text-align: center;
 
 }
 
-#nav{
+#navwrap{
+margin: 0 auto;
+}
 
+#nav{
+text-align: center;
 display:block;
 height: 80px;
-margin-left: 20%;
-margin-top: 4%;
+margin-top: 4%;     
 opacity: .7;
 }
 
+
 #nav li{
+font-family: 'Rokkitt', serif;
 font-weight: 400;
 font-size:16pt;
 margin: 25px;
 list-style: none;
-float:left;
+}
+
+#nav ul li{
+display: inline;
+
+
 }
 
 
 a:link{
 
-font-family: 'Rokkitt', serif;
+
 color:black;
 text-decoration: none;
 transition: color .3s;
