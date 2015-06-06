@@ -163,24 +163,23 @@ nav ul li a:hover {
 
 .indexbody,
 .gallerybody{
-  background:whitesmoke;
+  background:url("../img/new/1.svg");
 }
 
 
 .indexcontainer{
 
     margin:0 auto 0 auto;
-    padding-bottom: 200PX;
     width:60%;
     opacity: .9;
-    background:whitesmoke;
+    background:teal ;
     z-index: 5;
 }
 
 .welcome{
     position: relative;
     padding-top: 50px;
-    text-shadow:4px 2px 22.5px #000;
+
     transition-property: transform, color, letter-spacing;
     transition-duration: .25s;
     transition-timing-function: linear;
@@ -189,23 +188,7 @@ nav ul li a:hover {
 .welcome2{
     position: relative;
     margin-top:  12px;
-    text-shadow:4px 2px 22.5px #000;
-    transition-property: transform, color, letter-spacing;
-    transition-duration: .25s;
-    transition-timing-function: linear;
     margin-bottom:  -15px;
-}
-
-.welcome:hover{
-    letter-spacing: 23px;
-    transform: scale(1.25);
-    color:#00ffb7;
-}
-
-.welcome2:hover{
-    letter-spacing: 5px;
-    transform: scale(1.25);
-    color:#00ffb7;
 }
 
 
