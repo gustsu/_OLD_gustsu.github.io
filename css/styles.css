@@ -109,7 +109,7 @@ p{
 
 .indexbody,
 .gallerybody{
-  background:url("../img/new/1.svg");
+  background:orangered;
 }
 
 
@@ -118,7 +118,7 @@ p{
     margin:0 auto 0 auto;
     width:60%;
     opacity: .9;
-    background:teal ;
+    background:orange;
     z-index: 5;
 }
 
