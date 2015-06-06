@@ -8,8 +8,8 @@ $(document).ready(function() {
   
     inClass               :   'fade-in-right-sm',
     outClass              :   'fade-out-left-sm',
-    inDuration            :    750,
-    outDuration           :    1000,
+    inDuration            :    1000,
+    outDuration           :    700,
     linkElement           :   '.animsition-link',
     // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
     loading               :    true,

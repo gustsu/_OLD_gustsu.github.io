@@ -1,27 +1,27 @@
 #block1{
 width:500px;
 height: 500px;
-background: whitesmoke;
 margin: 0 auto;
 }
 
-#block2{
-width:500px;
-height: 500px;
-background: whitesmoke;
-margin: 0 auto;
-text-align: center;
-}
+
 
 body{
 background-color:whitesmoke;
+}
+
+#dd{
+margin-top: 3%;
+display:block;
+margin-left: 60%;
+
 }
 
 #nav{
 
 display:block;
 height: 80px;
-margin-left: 300px;
+margin-left: 20%;
 margin-top: 6%;
 opacity: .7;
 }
@@ -39,7 +39,7 @@ a:link{
 color:black;
 font-size: 14pt;
 text-decoration: none;
-
+transition: color .3s;
 }
 
 a:visited{
@@ -53,3 +53,8 @@ color:royalblue;
 text-decoration: none;
 }
 
+img{
+opacity: .9;
+width: 250px;
+
+}
