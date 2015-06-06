@@ -6,6 +6,12 @@ height: 500px;
 margin: 0 auto;
 }
 
+p{
+font-weight: 400;
+font-family: 'Rokkitt', serif;
+font-size: 16pt;
+
+}
 
 
 body{
@@ -32,6 +38,7 @@ opacity: .7;
 }
 
 #nav li{
+font-weight: 400;
 font-size:16pt;
 margin: 25px;
 list-style: none;
@@ -40,7 +47,7 @@ float:left;
 
 
 a:link{
-font-weight: 400;
+
 font-family: 'Rokkitt', serif;
 color:black;
 text-decoration: none;
