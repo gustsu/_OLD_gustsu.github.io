@@ -157,211 +157,23 @@ nav ul li a:hover {
 /*index.html styles*/
 
 
-/*IMPORTANT NOTE TO SELF: THIS TARETS ALL DIVS SITE-WIDE MAKE SURE AND ADD CLASSES TO ALL DIVS WITHOUT*/
-/*clouds animation credit to codepen user CLAARMAN*/
-/*clouds background credit to codepen user CLAARMAN*/
-
-.cloud {
-  position: fixed;
-  /*locked produces nice results as well try both*/
-  top: 0px;
-  width: 250px;
-  height: 200px;
-  background: -webkit-linear-gradient(#ffffff, #808080);
-  background: -o-linear-gradient(#ffffff, #808080);
-  background: -moz-linear-gradient(#ffffff, #808080);
-  background: linear-gradient(#ffffff, #808080);
-  border-radius: 100%;
-  opacity: 0;
-  filter: blur(20px);
-  -webkit-filter: blur(20px);
-  z-index: -1;
-}
-.cloud::before,
-.cloud::after {
-  position: relative;
-  width: 150px;
-  height: 100px;
-  content: " ";
-  display: block;
-  left: -80px;
-  top: 100px;
-  border-radius: 100%;
-  background: -webkit-linear-gradient(#ffffff, #808080);
-  background: -o-linear-gradient(#ffffff, #808080);
-  background: -moz-linear-gradient(#ffffff, #808080);
-  background: linear-gradient(#ffffff, #808080);
-}
-.cloud::after {
-  left: 200px;
-  height: 80px;
-  top: -50px;
-}
-.cloud:nth-child(1) {
-  animation: moving 31s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 31s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 175px;
-  top: 20px;
-}
-.cloud:nth-child(2) {
-  animation: moving 25s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 25s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 100px;
-  top: 20px;
-}
-.cloud:nth-child(3) {
-  animation: moving 28s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 28s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 150px;
-  top: 130px;
-}
-.cloud:nth-child(4) {
-  animation: moving 20s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 20s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 200px;
-  top: 100px;
-}
-.cloud:nth-child(5) {
-  animation: moving 27s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 27s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 125px;
-  top: 50px;
-}
-.cloud:nth-child(6) {
-  animation: moving 22s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 22s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 150px;
-  top: 50px;
-}
-.cloud:nth-child(7) {
-  animation: moving 28s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 28s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 225px;
-  top: 75px;
-}
-.cloud:nth-child(8) {
-  animation: moving 30s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 30s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 505px;
-  top: 60px;
-}
-.cloud:nth-child(9) {
-  animation: moving 25s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 25s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 375px;
-  top: 140px;
-}
-.cloud:nth-child(10) {
-  animation: moving 23s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 23s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 525px;
-  top: 70px;
-}
-.cloud:nth-child(11) {
-  animation: moving 22s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 22s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 375px;
-  top: 50px;
-}
-.cloud:nth-child(12) {
-  animation: moving 25s;
-  animation-iteration-coint: infinite;
-  animation-timing-function: linear;
-  -webkit-animation: moving 25s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  left: 275px;
-  top: 60px;
-}
-@-webkit-keyframes moving {
-  0% {
-    margin-left: 0%;
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    margin-left: 100%;
-  }
-}
-@keyframes moving {
-  0% {
-    margin-left: 0%;
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    margin-left: 100%;
-  }
-}
-/*END CLOUDS ANIMATION*/
-/*my addition to the clouds -- pretty cool combo when its position is fixed i think not good here thought
-.cloud:hover{
-    display: none;
-}*/
 
 
 
 
 .indexbody,
 .gallerybody{
-  background: linear-gradient(royalblue,#add8e6 54%, #ffffff);
+  background:whitesmoke;
 }
 
 
 .indexcontainer{
-    border-radius: 174px;
-    margin: 4.5% auto 1% auto; 
+
+    margin:0 auto 0 auto;
+    padding-bottom: 200PX;
     width:60%;
     opacity: .9;
-    background:url(../img/retina_wood.png);
+    background:whitesmoke;
     z-index: 5;
 }
 
@@ -410,7 +222,7 @@ nav ul li a:hover {
     transition-property: transform, background;
     transition-duration: .1s;
     transition-timing-function: linear;
-    border-radius: 100%;
+    border-radius: 0%;
 
 }
 
@@ -433,7 +245,7 @@ nav ul li a:hover {
     background: url(../img/selfie4.jpg);
     margin-top: 20px;
     margin-bottom: 32px;
-    border-radius:100%;
+    border-radius:0%;
 
 }
 
@@ -768,7 +580,7 @@ ul {
 width: 200px;
 height:200px;
 background: url(../img/selfie6.jpg);
-border-radius: 100%;
+border-radius: 0%;
 }
 
 
@@ -1155,7 +967,7 @@ a:visited{
     .indexcontainer{
         width:85%;
         margin: 8% auto 3% auto; 
-        border-radius: 125px;
+        border-radius: 0px;
     }    
 
     nav ul li a {
@@ -1218,7 +1030,7 @@ a:visited{
 
 @media (max-width:480px){
     .indexcontainer{
-    border-radius: 100px;
+    border-radius: 0px;
     }
     .welcome{
     padding-top: 90px;
