@@ -95,8 +95,8 @@ img {
 }
 @media (min-width: 1200px) {
 	.grid-container {
-        padding-left: 60px;
-		max-width: 576px;
+        padding-left: 374px;
+		max-width: 1108px;
 	}
 }
 
