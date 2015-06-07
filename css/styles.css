@@ -210,6 +210,10 @@ text-align: center;
 
 }
 
+.screen .button-text{
+color:whitesmoke;
+}
+
 #underline{
 text-decoration: underline;
 }
