@@ -15,10 +15,8 @@ text-align: center;
 }
 
 #topbutton:hover{
-opacity: 1;
+opacity: .75;
 }
-
-
 
 
 .cd-container {
