@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function($){
 	// browser window scroll (in pixels) after which the "back to top" link is shown
-	var offset = 250,
+	var offset = 230,
 		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 		offset_opacity = 520,
 		//duration of the top scrolling animation (in ms)
@@ -39,8 +39,8 @@ $(document).ready(function() {
   
   $(".animsition").animsition({
   
-    inClass               :   'fade-in-right',
-    outClass              :   'fade-out-left',
+    inClass               :   'fade-in-right-sm',
+    outClass              :   'fade-out-left-sm',
     inDuration            :    1200,
     outDuration           :    700,
     linkElement           :   '.animsition-link',
