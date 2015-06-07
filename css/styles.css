@@ -37,7 +37,7 @@ opacity: .75;
   height: 40px;
   width: 40px;
   position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   right: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
@@ -84,6 +84,10 @@ opacity: .75;
     padding-left: 0px;
 }
 
+.littlepads{
+    padding-left: 20px;
+}
+
 
 #block1{
 width:600px;
@@ -112,6 +116,10 @@ width:545px;
 .downboy{
 margin-top: 25px;
 }
+.downboy2{
+margin-top: 78px;
+}
+
 
 body{
 background-color:whitesmoke;
