@@ -6,9 +6,9 @@ $(document).ready(function() {
   
   $(".animsition").animsition({
   
-    inClass               :   'fade-in-right-sm',
-    outClass              :   'fade-out-left-sm',
-    inDuration            :    1000,
+    inClass               :   'fade-in-right',
+    outClass              :   'fade-out-left',
+    inDuration            :    1200,
     outDuration           :    700,
     linkElement           :   '.animsition-link',
     // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
