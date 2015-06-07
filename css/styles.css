@@ -70,6 +70,11 @@ opacity: .75;
 
 /*end back to top button styles*/
 
+.smalltext{
+font-size:12pt;
+}
+
+
 #portfoliocontainer{
 background: teal;
 width: 1000px;
@@ -82,7 +87,8 @@ margin: 0 auto;
     text-align: center;
     width: 800px;
     margin: 0 auto;
-    background: teal;
+    padding-left: 34px;
+
 }
 
 .nopads
@@ -205,6 +211,10 @@ text-align: center;
 }
 
 #underline{
+text-decoration: underline;
+}
+
+#underline2{
 text-decoration: underline;
 }
 
