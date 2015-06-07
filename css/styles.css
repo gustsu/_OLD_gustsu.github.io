@@ -37,7 +37,7 @@ opacity: .75;
   height: 40px;
   width: 40px;
   position: fixed;
-  bottom: 0px;
+  bottom: 50px;
   right: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
@@ -71,6 +71,18 @@ opacity: .75;
 /*end back to top button styles*/
 
 
+
+#contactcontainer{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    background: gray;
+}
+
+.nopads
+{
+    padding-left: 0px;
+}
 
 
 #block1{
