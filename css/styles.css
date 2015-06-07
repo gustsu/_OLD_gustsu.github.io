@@ -70,6 +70,12 @@ opacity: .75;
 
 /*end back to top button styles*/
 
+#portfoliocontainer{
+background: teal;
+width: 1000px;
+margin: 0 auto;
+}
+
 
 
 #contactcontainer{
@@ -86,6 +92,7 @@ opacity: .75;
 
 .littlepads{
     padding-left: 20px;
+    margin-bottom: 0px;
 }
 
 .rightboy{
