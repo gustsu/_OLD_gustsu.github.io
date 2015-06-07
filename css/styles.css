@@ -47,10 +47,9 @@ opacity: .85;
 
 
 #nav li{
-
 font-weight: 400;
 font-family: 'Lato', sans-serif;
-font-size:18pt;
+font-size:16pt;
 margin: 25px;
 list-style: none;
 }
@@ -86,7 +85,7 @@ text-decoration: none;
 }
 
 a:hover{
-color:royalblue;
+color:#34A2FF;
 
 }
 
