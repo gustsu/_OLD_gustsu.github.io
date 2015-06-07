@@ -36,7 +36,6 @@ background-color:whitesmoke;
 font-size:52px;
 font-weight: 700;
 font-family: 'Rokkitt', serif;
-margin-top: 4%;
 display:block;
 text-align: center;
 
@@ -186,6 +185,7 @@ ul{
 }
 
 h5{
+    margin-top: 30px;
     margin-left: 40px;
     font-size: 18pt;
     font-weight: 700;
