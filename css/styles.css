@@ -137,6 +137,13 @@ margin-top: 25px;
 margin-top: 78px;
 }
 
+.portimg{
+width: 200px;
+height: 200px;
+background: black;
+background: url("http://placehold.it/200x200");
+}
+
 
 body{
 background-color:whitesmoke;
