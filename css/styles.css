@@ -423,3 +423,41 @@ background: url("../img/thumbs/8.jpg");
 
 
 
+
+
+
+
+/*MEDIA QUERIES */
+@media screen and (max-width:800px){
+   #block1{
+       padding-left: 0px;
+   }
+
+}
+
+
+
+@media screen and (max-width:660px){
+    #nav li{
+    font-size: 12pt;
+    margin: 10px;
+    }
+    
+    ul{
+    padding-left: 0px;
+    }
+    
+    
+    #dd{
+    font-size: 40px;
+    }
+
+    #block1{
+    width: 90%;
+    }
+    
+    #frontimg{
+    width: 90%;
+    }
+
+}
