@@ -139,7 +139,7 @@ margin-top: 78px;
 
 
 body{
-background-color:whitesmoke;
+background-color:url("../img/white_wall.png");
 }
 
 #dd{
@@ -209,9 +209,7 @@ text-align: center;
 
 }
 
-.screen .button-text{
-color:whitesmoke;
-}
+
 
 #underline{
 text-decoration: underline;
