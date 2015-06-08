@@ -82,7 +82,7 @@ margin-top: 15px;
 }
 
 #programscontainer{
-width: 500px;
+width: 512px;
 margin: 0 auto;
 }
 
@@ -254,8 +254,11 @@ text-align: center;
 #underline, #underline2,
 #underline3, #underline4,
 #underline5, #underline6,
-#underline7, #underline8{
-    
+#underline7, #underline8,
+#underline9, #underline10,
+#underline11, #underline12,
+#underline13, #underline14
+{   
 text-decoration: underline;
 }
 
