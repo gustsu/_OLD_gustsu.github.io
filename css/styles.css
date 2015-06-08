@@ -81,6 +81,11 @@ margin-bottom: 30px;
 margin-top: 15px;
 }
 
+#programscontainer{
+width: 500px;
+margin: 0 auto;
+}
+
 #portfoliocontainer{
 
 width: 961px;
@@ -115,6 +120,11 @@ margin-top: 10px;
 
 .littlepads{
     padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.lotpads{
+    padding-left: 23px;
     margin-bottom: 0px;
 }
 
