@@ -74,14 +74,25 @@ opacity: .75;
 font-size:12pt;
 }
 
+#lgraph{
+text-align: center;
+margin-left: 0px;
+margin-bottom: 30px;
+}
 
 #portfoliocontainer{
-background: teal;
+background: crimson;
 width: 961px;
 margin: 0 auto;
 padding-left: 23px;
 }
 
+#progs, #proglist{
+padding-left: 0px;
+margin-left: 0px;
+margin-bottom:0px;
+text-align: center;
+}
 
 
 #contactcontainer{
@@ -225,13 +236,14 @@ text-align: center;
 
 
 
-#underline{
+#underline, #underline2,
+#underline3, #underline4,
+#underline5, #underline6,
+#underline7, #underline8{
+    
 text-decoration: underline;
 }
 
-#underline2{
-text-decoration: underline;
-}
 
 
 a:link{
@@ -307,15 +319,9 @@ color: rgba(0,0,0,.6);
 text-align: center;
 }
 
-hr {
 
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
-}
-/* Inset, by Dan Eden */
-
-hr.style-six {
+/* Horizontal Rule by Dan Eden */
+hr.style-six, hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
