@@ -130,6 +130,12 @@ width:545px;
 
 }
 
+#frontimg{
+width: 500px;
+margin: 0 auto;
+padding-left: 35px;
+}
+
 .downboy{
 margin-top: 25px;
 }
@@ -262,7 +268,23 @@ padding-left: 30px;
 }
 
 
-#aboutimg:hover{
+
+
+
+
+
+img{
+opacity: .6;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+transition: .5s -webkit-filter, .5s opacity;
+
+}
+
+
+#aboutimg:hover,
+img:hover
+{
 opacity: 1;
 -webkit-filter: grayscale(0%);
 }
