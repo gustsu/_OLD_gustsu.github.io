@@ -78,13 +78,15 @@ font-size:12pt;
 text-align: center;
 margin-left: 0px;
 margin-bottom: 30px;
+margin-top: 15px;
 }
 
 #portfoliocontainer{
-background: crimson;
+
 width: 961px;
 margin: 0 auto;
-padding-left: 23px;
+    /*
+padding-left: 23px;*/
 }
 
 #progs, #proglist{
@@ -94,6 +96,9 @@ margin-bottom:0px;
 text-align: center;
 }
 
+#proglist{
+margin-top: 10px;
+}
 
 #contactcontainer{
     text-align: center;
@@ -286,8 +291,9 @@ padding-left: 30px;
 
 
 
-img{
-border-radius: 35px;
+img, .portimg{
+
+border-radius: 15px;
 opacity: .6;
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
@@ -295,7 +301,7 @@ transition: .5s -webkit-filter, .5s opacity;
 
 }
 
-
+.portimg:hover,
 #aboutimg:hover,
 img:hover
 {
