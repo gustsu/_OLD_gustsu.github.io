@@ -14,7 +14,7 @@ img {
 /* Media Queries
 ================================ */
 
-@media (min-width: 1px) and (max-width: 767px)  {
+@media (min-width: 1px) and (max-width: 1084px)  {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
 		padding-bottom: 5px;
@@ -24,7 +24,7 @@ img {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1085px) {
 
 	/* Columns
 	================================ */

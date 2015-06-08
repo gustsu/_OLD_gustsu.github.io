@@ -286,9 +286,11 @@ display: block;
 margin: 0 auto;
 opacity: .6;
 width: 515px;
+-ms-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
-transition: .5s -webkit-filter, .5s opacity;
+transition: .5s -webkit-filter, .5s -moz-filter, .5s -ms-filter, .5s filter, .5s opacity;
 
 }
 
@@ -308,9 +310,11 @@ img, .portimg{
 
 border-radius: 15px;
 opacity: .6;
+-ms-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
-transition: .5s -webkit-filter, .5s opacity;
+transition: .5s -webkit-filter, .5s filter, .5s -moz-filter, .5s -ms-filter, .5s opacity;
 
 }
 
@@ -319,7 +323,10 @@ transition: .5s -webkit-filter, .5s opacity;
 img:hover
 {
 opacity: 1;
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
 -webkit-filter: grayscale(0%);
+filter: grayscale(0%);
 }
 
 #selected{
@@ -428,19 +435,71 @@ background: url("../img/thumbs/8.jpg");
 
 
 /*MEDIA QUERIES */
+@media screen and (max-width:1085px){
+#portfoliocontainer{
+    width: 90%;
+}
+    
+
+.portimg{
+margin: 0 auto 10px auto;
+}
+
+}
+
+@media screen and (max-width:900px){
+    #programscontainer{
+        width:90%;
+    }
+    
+    
+    #contactcontainer{
+        width: 90%;
+        padding-left: 0px;
+    
+    }
+    
+    #resume{
+    width:90%;
+    padding-left: 0px;
+    }
+    
+}
+
+
 @media screen and (max-width:800px){
+    .rightboy{
+        padding-left: 0px;
+    }
+    
+    .littlepads{
+        padding-left: 12px;
+    }
+    
+    
    #block1{
        padding-left: 0px;
    }
 
+  #aboutimg{
+      width: 100%;
+  
+  }
+    
 }
 
 
 
-@media screen and (max-width:660px){
+@media screen and (max-width:680px){
+     #topbutton{
+    width: 40px;
+    height: 40px;
+    background: url("../img/topbutton2.svg") no-repeat;
+    }
+    
     #nav li{
     font-size: 12pt;
-    margin: 10px;
+    margin: 8px;
     }
     
     ul{
@@ -456,8 +515,26 @@ background: url("../img/thumbs/8.jpg");
     width: 90%;
     }
     
+    #block2{
+    width: 90%;
+    }
+    
+    #aboutp{
+    width: 95%;
+    margin: 10px;
+    }
+    
     #frontimg{
     width: 90%;
     }
 
+    h5{
+        margin-left: 0px;
+    }
+
+    .rightboy{
+        padding-left: 0px;
+    }
+    
+    
 }
