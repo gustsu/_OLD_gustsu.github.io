@@ -1,14 +1,35 @@
 //  Scripts
 
-//my code for the lightbox
+//my code for the lightbox - thanks to Andrew Chalkley at teamtreehouse.com
+
+var $overlay = $('<div id="overlay"></div>');
+var $image = $('<img>');
+var $caption = $("<p></p>");
+
+$overlay.append($image);
+
+$overlay.append($caption);
+
+$("body").append($overlay);
+
+
 $(".gallink").click( function(event) {
     event.preventDefault();
-    var x = $(this).attr("href");
-    console.log(x);
+    var loc = $(this).attr("href");
+    
+    $image.attr("src", loc);
+    //console.log(href);
+    $overlay.show();
     
 
 });
 
+
+$overlay.click(function(){
+
+    $(this).hide();
+
+});
 
 
 
