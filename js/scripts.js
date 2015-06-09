@@ -1,14 +1,34 @@
 //  Scripts
 
+    // lock scroll position, but retain settings for later
+      var scrollPosition = [
+        self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+        self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+      ];
+      var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
+      html.data('scroll-position', scrollPosition);
+      html.data('previous-overflow', html.css('overflow'));
+      html.css('overflow', 'hidden');
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);
+
+
+      // un-lock scroll position
+      var html = jQuery('html');
+      var scrollPosition = html.data('scroll-position');
+      html.css('overflow', html.data('previous-overflow'));
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);
+
+
+
 //my code for the lightbox - thanks to Andrew Chalkley at teamtreehouse.com
 
 var $overlay = $('<div id="overlay"></div>');
 var $image = $('<img>');
 var $caption = $("<p></p>");
-
+$overlay.append($caption);
 $overlay.append($image);
 
-$overlay.append($caption);
+
 
 $("body").append($overlay);
 
@@ -21,7 +41,8 @@ $(".gallink").click( function(event) {
     //console.log(href);
     $overlay.show();
     
-
+    var curcap = $(this).attr("alt");
+    $caption.text(curcap);
 });
 
 
