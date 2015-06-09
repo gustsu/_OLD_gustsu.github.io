@@ -1,5 +1,20 @@
 //  Scripts
 
+//my code for the lightbox
+$(".gallink").click( function(event) {
+    event.preventDefault();
+    var x = $(this).attr("href");
+    console.log(x);
+    
+
+});
+
+
+
+
+
+
+
 //code for back to top button
 
 jQuery(document).ready(function($){
