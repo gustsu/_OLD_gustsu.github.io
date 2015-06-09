@@ -581,3 +581,14 @@ margin: 0 auto 10px auto;
     
     
 }
+
+
+@media screen and (max-width:500px){
+    #nav li{
+        margin: 5px;
+        font-size: 10pt;
+    
+    }
+
+
+}
