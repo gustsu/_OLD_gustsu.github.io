@@ -23,8 +23,9 @@ $(".gallink").click( function(event) {
     
     $image.attr("src", loc);
     //console.log(href);
-    $overlay.show();
-    
+    //$overlay.slideDown(500);
+    //$overlay.show();
+    $overlay.fadeIn(300);
     var curcap = $(this).attr("alt");
     $caption.text(curcap);
 });
@@ -37,8 +38,8 @@ $image.click(function(){
 
 
 $overlay.click(function(){
-
-    $(this).hide();
+    $(this).fadeOut(500);
+    //$(this).hide();
 
 });
 

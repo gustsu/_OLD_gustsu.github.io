@@ -432,7 +432,6 @@ background: url("../img/thumbs/8.jpg");
 }
 
 
-
 #overlay{
     background:rgba(0,0,0,.85);
     width: 100%;
@@ -443,6 +442,7 @@ background: url("../img/thumbs/8.jpg");
     left:50;
     display: none;
     z-index: 9;
+    
 }
 
 #overlay img{
