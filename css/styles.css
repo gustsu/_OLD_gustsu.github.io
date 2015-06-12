@@ -499,6 +499,9 @@ margin: 0 auto 10px auto;
 
 
 @media screen and (max-width:800px){
+    
+    
+    
     #overlay img{
     
         width: 50%;
@@ -506,7 +509,7 @@ margin: 0 auto 10px auto;
     
     
     .rightboy{
-        padding-left: 0px;
+        padding-left: 52px;
     }
     
     .littlepads{
@@ -523,6 +526,13 @@ margin: 0 auto 10px auto;
   
   }
     
+}
+
+@media screen and (max-width:767px){
+.rightboy{
+    padding-left: 0px;
+}
+
 }
 
 
@@ -581,6 +591,10 @@ margin: 0 auto 10px auto;
     
     
 }
+
+
+
+
 
 
 @media screen and (max-width:500px){
